@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+## Layout Web
+![Web 1](/src/assets/webhub.jpg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Layout Mobile
 
-## Available Scripts
+![Mobile 1](/src/assets/mobilehub.jpg) 
 
-In the project directory, you can run:
+# Sobre o projeto
 
-### `yarn start`
+Projeto Front-End Web e Mobile, trata-se de um site onde você precisa se cadastrar e logar para ter acesso ao dashboard, onde as rotas do usuário são protegidas sendo necessário ter o token para ter acesso. Na página de Dashboard é possivel fazer o cadastro e deletar Tecnologias através de uma API. Este projeto passou por 3 fases de desenvolvimento, divididos em 3 sprints de 1 semana cada.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Sprint 1:
+- Concepção do projeto em React
+- Página cadastro de usuário com post na API e toast de sucesso ou erro
+- Página login do usuário com carregamento de página e armazenagem do token 
+- Criação de rotas para as páginas
+- Formulários em React-hook-Form
+- Validações de Formulários através de Yup
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Sprint 2:
+- Página dashboard
+- Gerenciamento de tecnologias cadastradas.
+- Modal Adicionar Tecnologia
+- Excluir tecnologia
+- Renderização das Tecnologias já cadastradas na API
+- Implementado ContextAPI para passar as props de forma global
+- Implementado a proteção de rota do Dashboard, sendo possível seu acesso apenas com o Token
 
-### `yarn test`
+## Sprint 3:
+- Refatoramento de toda a aplicação para TypeScript
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Tecnologias utilizadas
 
-### `yarn build`
+## Front end
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React
+- TypeScript
+- useState
+- useEffect
+- ContextAPI
+- StyledComponents
+- Toastify
+- axios
+- react-hook-form
+- yup para validações nos formulários
+- react-router-dom
+- responsividade
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Link GithubPages: https://s3-14-jeanmbiz.vercel.app/
