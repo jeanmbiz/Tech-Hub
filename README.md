@@ -22,10 +22,10 @@ Projeto Front-End Web e Mobile, trata-se de um site onde você precisa se cadast
 - Gerenciamento de tecnologias cadastradas.
 - Modal Adicionar Tecnologia
 - Excluir tecnologia
-- Clicando em sair da Dashboard excluir o token de acesso do usuário
 - Renderização das Tecnologias já cadastradas na API
 - Implementado ContextAPI para passar as props de forma global
 - Implementado a proteção de rota do Dashboard, sendo possível seu acesso apenas com o Token
+- Clicando em sair da Dashboard exclui o token de acesso do usuário
 
 ## Sprint 3:
 - Refatoramento de toda a aplicação para TypeScript
@@ -38,13 +38,13 @@ Projeto Front-End Web e Mobile, trata-se de um site onde você precisa se cadast
 - TypeScript
 - useState
 - useEffect
-- ContextAPI
-- StyledComponents
-- Toastify
 - axios
 - react-hook-form
 - yup para validações nos formulários
 - react-router-dom
-- responsividade
+- ContextAPI
+- Toastify
+- StyledComponents
+- Mobile first
 
 ### Link GithubPages: https://s3-14-jeanmbiz.vercel.app/
