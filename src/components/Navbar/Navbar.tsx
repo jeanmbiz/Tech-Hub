@@ -23,7 +23,7 @@ const Navbar = () => {
         <figure>
           <img src={Logo} alt="Logo Kenzie Hub" />
         </figure>
-        <button onClick={() => backAndClear()}>Voltar</button>
+        <button onClick={() => backAndClear()}>Sair</button>
       </div>
     </NavStyled>
   );

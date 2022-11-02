@@ -22,6 +22,7 @@ Projeto Front-End Web e Mobile, trata-se de um site onde você precisa se cadast
 - Gerenciamento de tecnologias cadastradas.
 - Modal Adicionar Tecnologia
 - Excluir tecnologia
+- Clicando em sair da Dashboard excluir o token de acesso do usuário
 - Renderização das Tecnologias já cadastradas na API
 - Implementado ContextAPI para passar as props de forma global
 - Implementado a proteção de rota do Dashboard, sendo possível seu acesso apenas com o Token
