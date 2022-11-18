@@ -45,6 +45,6 @@ Projeto Front-End Web e Mobile, trata-se de uma aplicação onde você precisa s
 - ContextAPI
 - Toastify
 - StyledComponents
-- Mobile first
+- Mobile first.
 
 ### Link GithubPages: https://s3-14-jeanmbiz.vercel.app/
