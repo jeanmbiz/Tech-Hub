@@ -34,7 +34,7 @@ Projeto Front-End Web e Mobile, trata-se de uma aplicação onde você precisa s
 
 ## Front end
 
-- React
+- React;
 - TypeScript
 - useState
 - useEffect
