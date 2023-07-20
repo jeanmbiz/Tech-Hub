@@ -1,9 +1,9 @@
 ## Layout Web
-![Web 1](/src/assets/webhub.jpg)
+![Web 1](/src/assets/tech-hub-web.jpg)
 
 ## Layout Mobile
 
-![Mobile 1](/src/assets/mobilehub.jpg) 
+![Mobile 1](/src/assets/tech-hub-mobile.jpg) 
 
 # Sobre o projeto
 
@@ -38,13 +38,13 @@ Projeto Front-End Web e Mobile, trata-se de uma aplicação onde você precisa s
 - TypeScript
 - useState
 - useEffect
-- axios
-- react-hook-form
-- yup para validações nos formulários
-- react-router-dom
+- Axios
+- React-hook-form
+- YUP (para validações de formulários)
+- React-router-dom
 - ContextAPI
 - Toastify
-- StyledComponents
-- Mobile first
+- Styled-Components
+- Projeto em Mobile first
 
 ### Link GithubPages: https://s3-14-jeanmbiz.vercel.app/
